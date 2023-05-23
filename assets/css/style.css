@@ -55,10 +55,10 @@
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-  html, body {
+  /* html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
+} */
   
 body {
   color: #696969;
