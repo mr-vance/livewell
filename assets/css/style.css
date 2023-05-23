@@ -5679,7 +5679,8 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
   height: 100%;
   width: 50vw;
   left: 0;
-  top: 0; }
+  top: 0;
+  background-repeat: no-repeat; /* Added property */ }
   @media only screen and (max-width: 991px) {
     .booking-hour-image {
       position: relative;
