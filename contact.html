@@ -217,7 +217,7 @@
                    <div class="section-title mb-45 text-center">
                        <h2>Send  Us  Message</h2>
                    </div>
-                    <form action="#" class="contact-form">
+                    <form action="/assets/php/contact.php" class="contact-form" id="contact-form" method="post">
                         <div class="row clearfix justify-content-center">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -228,12 +228,12 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                    <label for="email"><i class="far fa-envelope"></i></label>
-                                    <input type="email" id="email" name="email" class="form-control" value="" placeholder="Email Us" required="">
+                                    <input type="email" id="email" name="email" class="form-control" value="" placeholder="Email" required="">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <input type="text" id="website" name="website" class="form-control" value="" placeholder="Website">
+                                    <input type="number" id="phone" name="phone" class="form-control" value="" placeholder="Contact Number">
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -362,7 +362,8 @@
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom script -->
     <script src="assets/js/script.js"></script>
-
+    <!--Contact Form-->
+    <script src="assets/js/contact-form.js"></script>
 </body>
 
 </html>
