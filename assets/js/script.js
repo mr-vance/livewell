@@ -1,9 +1,4 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: Lezar - Beauty Salon HTML Template
-    Template URI: https://webtend.net/demo/html/lezar/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
 
     Note: This is Main JS File.
 -----------------------------------------------------------------------------------
