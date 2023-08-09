@@ -561,7 +561,7 @@ a.theme-btn {
   display: flex;
   margin-bottom: 15px; }
   .list-style-two li:before {
-    content: "";
+    content: "";
     margin-right: 12px;
     font-family: 'flaticon'; }
 
