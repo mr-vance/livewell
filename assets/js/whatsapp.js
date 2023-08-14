@@ -1,26 +1,25 @@
-// Retrieve the form element
-const form = document.querySelector('.booking-from');
-
-// Add a submit event listener to the form
-form.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent the default form submission
-
-  // Get the input values
-  const name = document.getElementById('name').value;
-  const phone = document.getElementById('phone').value;
-  const number = document.getElementById('number').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
-  const service = document.getElementById('service').value;
-  const time = document.getElementById('time').value;
-  const date = document.getElementById('date').value;
-
-  // Construct the WhatsApp message with the form data
-  const whatsappMessage = `**A client from the website**%0aName: ${name}%0aPhone: ${phone}%0aMessage: ${message}%0aService (s): ${service}%0aContact: ${number}%0aEmail: ${email}%0aDate: ${date}%0aTime: ${time}`;
-
-  // Create the WhatsApp URL
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=27710095644&text=${whatsappMessage}`;
-
-  // Open the WhatsApp URL in a new window or tab
-  window.open(whatsappUrl, '_blank');
-});
+// Function to send form data to WhatsApp
+function sendFormData() {
+    // Get form values
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var number = document.getElementById('number').value;
+    var service = document.getElementById('service').value;
+  
+    // Construct the WhatsApp message
+    var message = "Name: " + name + "%0A";
+    message += "Email: " + email + "%0A";
+    message += "Phone Number: " + number + "%0A";
+    message += "Service of Interest: " + service;
+  
+    // Generate the WhatsApp link
+    var whatsappLink = "https://wa.me/27736259697?text=" + encodeURI(message);
+  
+    // Open WhatsApp in a new tab
+    window.open(whatsappLink);
+  }
+  
+  // Attach event listener to the form submit button
+  var submitButton = document.querySelector('#booking-from button[type="submit"]');
+  submitButton.addEventListener('click', sendFormData);
+  
