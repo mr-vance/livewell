@@ -823,7 +823,7 @@ a.theme-btn {
   background-color: #F7F7F7; }
 
 .bg-green {
-  background-color: #799AA1; }
+  background-color: #700444; }
 
 .bg-yellow {
   background-color: #D6B981; }
@@ -3409,7 +3409,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
       .header-two .navbar-collapse .navigation > li.dropdown > .dropdown-btn {
         border-color: #f3f3f324; } }
   .header-two.fixed-header .header-upper {
-    background: #799AA1; }
+    background: #700444; }
 
 /*Header Three*/
 .header-three .menu-sidebar .icon-bar,
