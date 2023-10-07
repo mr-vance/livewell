@@ -1,6 +1,7 @@
 # livewell
 
-![website front page](/images/site-livewell.jpeg)
+<img src="images/site-livewell.jpeg" alt="website front page" style="border-radius: 15px;">
+
 
 
 # About
