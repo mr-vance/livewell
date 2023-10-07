@@ -38,7 +38,7 @@
     30. Main Footer */
 /* -------------------------------------------------------------- */
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;500;600;700&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @import "~@flaticon/flaticon-uicons/css/all/all";
 /*******************************************************/
@@ -63,7 +63,7 @@ body {
   font-weight: 400;
   line-height: 1.8;
   font-size: 18px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 a {
   color: #696969;
@@ -160,7 +160,7 @@ textarea,
   .nice-select .current {
     font-weight: 600;
     color: #242424;
-    font-family: "Montserrat", sans-serif; }
+    font-family: 'Poppins', sans-serif; }
   .nice-select .list {
     width: 100%;
     border-radius: 0; }
@@ -198,7 +198,7 @@ textarea::-webkit-input-placeholder,
 .form-control::-webkit-input-placeholder {
   font-weight: 600;
   color: #242424;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 input:-ms-input-placeholder,
 select:-ms-input-placeholder,
@@ -206,7 +206,7 @@ textarea:-ms-input-placeholder,
 .form-control:-ms-input-placeholder {
   font-weight: 600;
   color: #242424;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 input::-ms-input-placeholder,
 select::-ms-input-placeholder,
@@ -214,7 +214,7 @@ textarea::-ms-input-placeholder,
 .form-control::-ms-input-placeholder {
   font-weight: 600;
   color: #242424;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 input::placeholder,
 select::placeholder,
@@ -222,7 +222,7 @@ textarea::placeholder,
 .form-control::placeholder {
   font-weight: 600;
   color: #242424;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 input[type=search]::-ms-clear {
   display: none;
@@ -285,7 +285,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 16px;
     color: #D6B981;
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: capitalize; }
     @media only screen and (max-width: 375px) {
       .section-title .sub-title {
@@ -400,7 +400,7 @@ a.theme-btn {
   -ms-flex-pack: center;
   justify-content: center;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   border: 1px solid #242424; }
   .theme-btn i,
   a.theme-btn i {
@@ -868,7 +868,7 @@ a.theme-btn {
 h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date span {
   font-weight: 500;
   color: #242424;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 .bg-text {
   font-family: "Dancing Script", cursive;
@@ -2925,7 +2925,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
   .header-top ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3062,7 +3062,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
       font-weight: 500;
       color: #242424;
       text-transform: uppercase;
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Poppins', sans-serif;
       -webkit-transition: all 500ms ease;
       -o-transition: all 500ms ease;
       transition: all 500ms ease; }
@@ -4628,7 +4628,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
       width: -moz-max-content;
       width: max-content;
       color: #242424;
-      font-family: "Montserrat", sans-serif; }
+      font-family: 'Poppins', sans-serif; }
   .portfolio-item:hover .portfolio-content h6, .portfolio-item:hover .portfolio-content b {
     opacity: 1;
     margin-left: 0; }
@@ -5051,7 +5051,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
       .feedback-item .quote-rating .rating span {
         font-weight: 600;
         color: #799AA1;
-        font-family: "Montserrat", sans-serif; }
+        font-family: 'Poppins', sans-serif; }
 
 .author-description {
   margin-top: 30px;
@@ -5999,7 +5999,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
       width: -moz-min-content;
       width: min-content;
       text-transform: uppercase;
-      font-family: "Montserrat", sans-serif; }
+      font-family: 'Poppins', sans-serif; }
       @media only screen and (max-width: 1199px) {
         .news-item .news-header .date {
           margin-right: 20px; } }
@@ -6144,7 +6144,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
     margin-bottom: 8px; }
   .news-item-two .read-more {
     font-size: 15px;
-    font-family: "Montserrat", sans-serif; }
+    font-family: 'Poppins', sans-serif; }
   .news-item-two:hover {
     border-color: #D6B981; }
 
@@ -6488,7 +6488,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
       font-size: 24px;
       font-weight: 600;
       color: #D6B981;
-      font-family: "Montserrat", sans-serif; }
+      font-family: 'Poppins', sans-serif; }
       @media only screen and (max-width: 375px) {
         .pricing-content .pricing-title .price {
           font-size: 20px; } }
@@ -7133,13 +7133,13 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
     line-height: 1.2;
     font-weight: 500;
     position: absolute;
-    font-family: "Montserrat", sans-serif; }
+    font-family: 'Poppins', sans-serif; }
 
 .count-text {
   line-height: 1;
   font-size: 42px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 /*******************************************************/
 /******************* 24. FAQ Section *******************/
@@ -7675,7 +7675,7 @@ h1, h2, h3, h4, h5, h6, .feedback-content-item, .news-item .news-header .date sp
     -ms-flex-align: center;
     align-items: center;
     padding-bottom: 15px;
-    font-family: "Montserrat", sans-serif; }
+    font-family: 'Poppins', sans-serif; }
     @media only screen and (max-width: 480px) {
       .coming-soon-inner ul li {
         min-width: 50%; } }
