@@ -35,7 +35,7 @@ Stay updated and connected with us on social media:
 
 - [Facebook](https://www.facebook.com/livewellbeauty)
 - [WhatsApp](https://wa.me/27736259697)
-- [Instagram](#) (Coming Soon)
+- [Instagram](https://www.instagram.com/livewellbeautywellness)
 
 ## Copyright
 
