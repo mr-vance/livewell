@@ -251,11 +251,12 @@
        }
         
         
-        // 14. Portfolio Filtering
+       $(document).ready(function () {
+        // Portfolio Filtering
         $(".portfolio-filter li").on('click', function () {
             $(".portfolio-filter li").removeClass("current");
             $(this).addClass("current");
-
+    
             var selector = $(this).attr('data-filter');
             $('.portfolio-active').imagesLoaded(function () {
                 $(".portfolio-active").isotope({
@@ -263,8 +264,14 @@
                     filter: selector,
                 });
             });
-
         });
+    
+        // Trigger a click event on the default item (Fat Reduction Treatments)
+        $(".portfolio-filter li.current").click();
+    });
+    
+    
+    
         
                 
         // 15. Feedback Slider One   
