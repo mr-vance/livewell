@@ -1,6 +1,6 @@
 # livewell
 
-<img src="readme/site-livewell.jpeg" alt="website front page" style="border-radius: 15px;">
+![cover-image](readme/site-livewell-1.png)
 
 
 
