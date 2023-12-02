@@ -56,6 +56,10 @@
     max-width: 100%;
     overflow-x: hidden;
 }
+
+html {
+  zoom: 90%;
+}
   
 body {
   color: #696969;
